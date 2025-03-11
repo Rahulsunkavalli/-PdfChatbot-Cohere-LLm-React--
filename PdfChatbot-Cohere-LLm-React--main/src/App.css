@@ -1,0 +1,101 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+ 
+}
+
+.textarea-form {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+ 
+.textarea-container {
+  position: relative;
+}
+
+.textarea {
+  width: 90%; 
+  height: 30px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  resize: none;
+  font-size: 14px;
+  outline: none; 
+  
+}
+
+.submit-button {
+  position: absolute;
+  right: 10px; 
+  bottom: 10px; 
+  width: 40px; 
+  height: 40px; 
+  border: none;
+  background: none;
+  background-color: #eceff3;
+  color: rgb(15, 166, 48);
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 130px; 
+  padding: 0;
+}
+
+.submit-button:hover {
+  background-color: #e75221;
+}
+
+
+
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  border-top-color: #333;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.question-logo{
+  height:23px;
+}
+
+.answer-logo{
+  height:30px;
+}
+
+.question img,
+.answer img {
+  margin-right: 10px;
+}
+
+.question{
+  margin-left: 90px;
+}
+
+.answer{
+  margin-left: 85px;
+  
+}
+
+.question-img{
+  margin-left:20px;
+}
